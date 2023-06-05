@@ -1,0 +1,1 @@
+zip -r wp-synergia.zip *.php *.css assets
