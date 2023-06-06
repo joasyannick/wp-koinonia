@@ -1,0 +1,59 @@
+export const DARK_THEME = 'dark'
+export const LIGHT_THEME = 'light'
+export const THEME_KEY = 'snrg.theme'
+
+export const ACCOUNT_ROUTE = 'compte'
+export const ACCOUNT_PATH = '/compte'
+export const ACCOUNT_FULL_PATH = '/compte'
+export const BIOGRAPHY_ROUTE = 'bio'
+export const BIOGRAPHY_PATH = 'bio'
+export const BIOGRAPHY_FULL_PATH = '/bio'
+export const ERROR_ROUTE = '404'
+export const ERROR_PATH = '/404'
+export const ERROR_FULL_PATH = '/404'
+export const HELIKIA_ROUTE = 'helikia'
+export const HELIKIA_PATH = '/helikia'
+export const HELIKIA_FULL_PATH = '/helikia'
+export const MODULE_ROUTE = 'module'
+export const MODULE_PATH = ':module'
+export const MODULE_FULL_PATH = '/helikia/:module'
+export const PADDY_ROUTE = 'paddy'
+export const PADDY_PATH = '/'
+export const PADDY_FULL_PATH = '/'
+export const POST_ROUTE = 'post'
+export const POST_PATH = ':post'
+export const POST_FULL_PATH = '/blog/:post'
+export const SYNERGIA_ROUTE = 'synergia'
+export const SYNERGIA_PATH = 'synergia'
+export const SYNERGIA_FULL_PATH = '/helikia/synergia'
+
+export const BIOGRAPHY_PAGE = 'snrg-bio'
+export const ERROR_PAGE = 'snrg-404'
+export const HELIKIA_PAGE = 'snrg-helikia'
+export const INTRODUCTION_PAGE = 'snrg-intro'
+
+export const DOWNWARD = 'down'
+export const UPWARD = 'up'
+
+export const MOUNTAIN_GLOW_PERIOD = 4 // seconds
+export const STAR_COUNT = 300
+export const STAR_RADIUS = 5
+export const THROTTLING_PERIOD = 100
+export const TWINKLING_STAR_PERIOD = 4 // seconds
+export const TWINKLING_STAR_RADIUS = 15
+export const VIEWBOX_HEIGHT = 9000
+export const VIEWBOX_WIDTH = 16000
+
+export const WP_CONTENT_RENDERED = 'content.rendered'
+export const WP_DATE_GMT = 'date_gmt'
+export const WP_EMBEDDED = '_embedded'
+export const WP_EXCERPT_RENDERED = 'excerpt.rendered'
+export const WP_FEATURED_MEDIA = 'wp:featuredmedia'
+export const WP_ID = 'id'
+export const WP_LINKS = '_links'
+export const WP_MODULES = 'snrg-modules'
+export const WP_PAGES = 'pages'
+export const WP_POSTS = 'posts'
+export const WP_SLUG = 'slug'
+export const WP_TERM = 'wp:term'
+export const WP_TITLE_RENDERED = 'title.rendered'

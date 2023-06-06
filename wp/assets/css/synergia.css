@@ -1,0 +1,14 @@
+body {
+  margin: initial;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  overflow: clip;
+}
+
+body > div#snrg-vue {
+  flex: 1 1 auto;
+  height: 100vh;
+}
