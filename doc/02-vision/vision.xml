@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+  <info>
+    <title>Vision pour Koïnonia</title>
+    <date>2025-03-14</date>
+    <releaseinfo>1.0.0</releaseinfo>
+    <edition>1.0</edition>
+    <copyright>
+      <year>2025</year>
+      <holder>Helikia</holder>
+    </copyright>
+    <revhistory>
+      <revision>
+        <revnumber>1.0.0</revnumber>
+        <date>2025-03-14</date>
+        <authorinitials>JF</authorinitials>
+        <revremark>Initial release of the document.</revremark>
+      </revision>
+      <revision>
+        <revnumber>1.1.0</revnumber>
+        <date>2025-04-01</date>
+        <authorinitials>MA</authorinitials>
+        <revremark>Added multilingual support details.</revremark>
+      </revision>
+    </revhistory>
+  </info>
+  <section>
+    <title>Introduction</title>
+    <simpara>
+      Patrick Fontaine&#xA0;<xref linkend="doc-patrick-fontaine" /> est un enseignant spirituel dont l’expérience, riche et singulière, s’est forgée au feu de décennies d’épreuves et de remises en question.
+      Helikia&#xA0;<xref linkend="doc-helikia" />, son programme d’enseignement, accompagne depuis plus de 25&#xA0;ans les croyants en quête d’authenticité, au-delà du christianisme traditionnel.
+      Désormais disponible par correspondance, il permet à un public plus large de s’y immerger, sans les contraintes des sessions en présentiel qui ont marqué ses débuts.
+    </simpara>
+    <simpara>
+      Koïnonia est une refonte du site de Patrick Fontaine qui amplifie cette dynamique en mettant les participants en réseau, facilitant ainsi le partage et encourageant les initiatives spontanées, tout en étendant sa portée francophone à de nouvelles langues.
+      Ce document présente notre vision pour ce projet&#x202F;: sa raison d’être, ses utilisateurs, la valeur que nous voulons leur offrir, les parties prenantes, le cycle de développement, et les critères de réussite.
+    </simpara>
+  </section>
+  <section>
+    <title>Raison d’être</title>
+    <simpara>
+      Les modules de Patrick Fontaine, impeccables sur le fond, souffrent d’une forme inadéquate qui entrave leur rayonnement&#x202F;: un design Web vieillot et un processus manuel d’achat — paiement par virement bancaire, envoi des enregistrements par email — susceptibles de rebuter les visiteurs.
+      Une interface prenante et un accès fluide, automatisé aux ressources inspireront immédiatement confiance, invitant à s’engager sans réserve.
+    </simpara>
+    <simpara>
+      Les rencontres Synergia trimestrielles, restreintes en places et en portée géographique, laissent encore trop de monde à l’écart, rappelant les limites qui ont conduit à proposer Helikia par correspondance.
+      Quant au site actuel, il est franco-français&#x202F;: il coupe les expatriés et les non-francophones d’une communauté grandissante.
+      Koïnonia s’inspirera des réseaux sociaux pour briser ces entraves spatiales et porter l’héritage d’Helikia au-delà des frontières, notamment vers les anglophones, sinophones, et hispanophones, les langues les plus parlées au monde&#xA0;<xref linkend="doc-ethnologue" />.
+    </simpara>
+  </section>
+  <section>
+    <title>Utilisateurs</title>
+    <simpara>
+      Comme Helikia, ce projet a à cœur tous les assoiffés de spiritualité ouverts d’esprit, conscients que nombre de chemins y mènent et qu’elle n’est l’apanage de personne.
+      Cela dit, son angle de vue est celui du christianisme, empruntant parfois des ponts vers d’autres itinéraires spirituels.
+      Les internautes de mentalité souple y trouveront matière à se désaltérer, qu’ils parlent français, anglais, chinois, espagnol, ou d’autres langues ajoutées postérieurement.
+    </simpara>
+    <simpara>
+      Les premiers bénéficiaires seront toutefois les helikiens, qui profiteront d’échanges libres de toute contrainte temporelle ou spatiale.
+      Ils réagiront aux réflexions des uns, répondront aux questions des autres, s’entraideront face aux difficultés, s’encourageront lors de rencontres locales, et tisseront des liens avec d’autres cultures, se découvrant malgré leurs différences une passion commune pour la vérité.
+    </simpara>
+  </section>
+  <section>
+    <title>Proposition de valeur</title>
+    <simpara>
+      Maude franchit la porte de l’église comme elle le fait depuis plus de vingt ans.
+      À peine entrée, le son des instruments la transporte loin de ses soucis.
+      Mais voilà que les beaux chants laissent place à la prédication.
+      L’exhortation à vivre pour Christ vient lui rappeler tout ce qu’elle ne fait pas assez.
+      Dimanche aussi, comme en semaine au travail, les sourires masquent une attente tacite&#x202F;: prier plus, donner plus, rayonner plus.
+      Sortir de ce perfectionnement du soi, usant après tant d’années, ferait d’elle une chrétienne tiède coupable d’aimer le monde.
+      Les autres se tiendraient à distance.
+    </simpara>
+    <simpara>
+      Ambre, une collègue devenue amie, s’était convertie suite à son invitation, mais a fui ces réunions il y a cinq ans, sans un mot.
+      Maude, inquiète pour elle, la pensait perdue.
+      Au bureau, la pause venue, elle lui glissait&#x202F;: «&#x202F;Reviens à l’église, tu auras moins de problèmes&#x202F;!&#x202F;»
+      Mais la dernière fois, Ambre a répondu : «&#x202F;J’ai abandonné mes anciennes conceptions de la vie chrétienne — Dieu agit quand je lâche prise&#x202F;!&#x202F;»
+      Ces mots l’ont secouée — Ambre, qui s’épuisait autrefois à tout bien faire pour être bénie, rayonne d’une quiétude libératrice.
+      Un matin, à la cafétéria, Maude s’approche&#x202F;: «&#x202F;T’as changé, dis donc&#x202F;!&#x202F;»
+      Ambre sourit&#x202F;: «&#x202F;Viens à un Synergia chez moi ce week-end, je te raconterai&#x202F;!&#x202F;»
+    </simpara>
+    <simpara>
+      Chez Ambre, le thé fume dans des tasses dépareillées, des rires fusent entre les murs.
+      Maude s’assoit, méfiante — elle connaît les cercles où l’on pèse chaque mot.
+      Mais ici, un homme interprète un verset librement, une femme commente un module d’enseignement, un couple partage une anecdote — tous s’écoutent avec bienveillance.
+      Ambre murmure&#x202F;: «&#x202F;C’est un Synergia qu’on a spontanément organisé sur Koïnonia&#x202F;!&#x202F;»
+      Maude, d’abord stupéfaite, bredouille une question.
+      On lui répond sans sermon.
+      Une paix inattendue s’installe en elle.
+    </simpara>
+    <simpara>
+      Quelques mois plus tard, Koïnonia s’ancre dans le quotidien de Maude.
+      Elle savoure les articles du blog de Patrick Fontaine, télécharge des modules à la maison, les écoute en ligne en déplacement.
+      Le week-end, elle échange dans des salons virtuels par messagerie instantanée et guette les événements près de chez elle.
+      Chaque module intègre un espace de question-réponse entre helikiens, Maude y trouve des éclaircissements et n’hésite plus à contribuer.
+    </simpara>
+  </section>
+  <section>
+    <title>Parties prenantes</title>
+    <simpara>
+      Koïnonia repose sur un noyau de contributeurs essentiels&#x202F;:
+    </simpara>
+    <itemizedlist>
+      <listitem>
+        <simpara>
+          Patrick Fontaine fournit le contenu spirituel et valide l’orientation du projet pour qu’il reste fidèle à sa vision.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          Des traducteurs adaptent les modules aux langues cibles.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          Les helikiens enrichissent la plateforme par leurs échanges et l’organisation d’événements locaux.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          Une équipe de développement conçoit l’interface et implémente les fonctionnalités.
+        </simpara>
+      </listitem>
+    </itemizedlist>
+    <simpara>
+      Tous veillent à ce que l’esprit d’ouverture et d’entraide perdure.
+    </simpara>
+  </section>
+  <section>
+    <title>Cycle de développement</title>
+    <simpara>
+      Koïnonia sera construit selon la méthode Kanban, favorisant un flux continu et collaboratif.
+      Une version minimale viable (MVP) centrée sur l’accès aux modules et le blog de Patrick Fontaine sera déployée au plus vite.
+      Les retours des helikiens affineront les fonctionnalités — question-réponse, salons virtuels, événements locaux — au rythme des besoins réels.
+    </simpara>
+    <simpara>
+      Une équipe resserrée, mêlant développeurs, traducteurs, et helikiens pilotes, gérera les priorités.
+      Les technologies open-source faciliteront l’évolutivité et la maintenance, tandis qu’un hébergement sécurisé protégera les données.
+      Cette approche agile et inclusive fera de Koïnonia une plateforme vivante, façonnée par ceux qu’elle sert.
+    </simpara>
+  </section>
+  <section>
+    <title>Succès</title>
+    <simpara>
+      Le succès de Koïnonia se mesurera d’abord par l’engagement des helikiens&#x202F;: un taux d’inscription croissant, des interactions régulières en ligne, et une multiplication des événements locaux dans les six premiers mois.
+      L’universalité des modules sera un autre indicateur clé&#x202F;: des téléchargements en hausse dans les versions anglaise, chinoise et espagnole.
+      À moyen terme, une communauté active de 500&#xA0;membres échangeant en plusieurs langues marquerait une étape significative.
+    </simpara>
+    <simpara>
+      Sur le plan qualitatif, les retours des utilisateurs devront témoigner d’une expérience libératrice&#x202F;: moins de pression, plus de connexions authentiques, et une foi ravivée par le partage.
+      Enfin, la reconnaissance de Koïnonia comme un prolongement naturel d’Helikia par Patrick Fontaine et ses pairs validera son ancrage spirituel.
+      Si Maude et Ambre, dans leur quête de sens, trouvent dans ce projet un écho à leur histoire, alors Koïnonia aura tenu sa promesse.
+    </simpara>
+  </section>
+  <bibliography xml:id="refs">
+    <title>Références</title>
+    <biblioentry xml:id="doc-patrick-fontaine">
+      <title>Biographie</title>
+      <author>
+        <personname><firstname>Patrick</firstname><surname>Fontaine</surname></personname>
+        <uri xlink:href="https://paddyfontaine.fr">https://paddyfontaine.fr</uri>
+      </author>
+      <bibliomisc><link xlink:href="https://paddyfontaine.fr/bio-cloned">https://paddyfontaine.fr/bio-cloned</link></bibliomisc>
+    </biblioentry>
+    <biblioentry xml:id="doc-helikia">
+      <title>Helikia : Modules Fondations</title>
+      <author>
+        <personname><firstname>Patrick</firstname><surname>Fontaine</surname></personname>
+        <uri xlink:href="https://paddyfontaine.fr">https://paddyfontaine.fr</uri>
+      </author>
+      <bibliomisc><link xlink:href="https://paddyfontaine.fr/helikia-modules-fondations">https://paddyfontaine.fr/helikia-modules-fondations</link></bibliomisc>
+    </biblioentry>
+    <biblioentry xml:id="doc-ethnologue">
+      <title>Ethnologue: What are the 10 largest/most spoken languages in the world?</title>
+      <bibliomisc><link xlink:href="https://www.ethnologue.com/faq/ten-largest-languages">https://www.ethnologue.com/faq/ten-largest-languages</link></bibliomisc>
+      <publisher><publishername>SIL International</publishername></publisher>
+      <date>2023</date>
+    </biblioentry>
+  </bibliography>
+</article>
