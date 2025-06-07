@@ -28,11 +28,11 @@ java -jar '../01-common/01-tools/02-jing/20091111/jing.jar' \
   '../01-common/01-tools/01-docbook/5.1/docbook.rng' \
   vision.xml
 ```
-alors le fichier `vision.xml` est conforme aux règles de syntaxe du format DocBook 5.1.
+alors `vision.xml` est conforme aux règles de syntaxe du format DocBook 5.1.
 
 ## Génération du HTML
 
-La commande suivante génère le fichier `vision.html` :
+La commande suivante génère `vision.html` :
 ```sh
 java -cp '../01-common/01-tools/03-saxon/he-12.7/saxon-he-12.7.jar' \
   net.sf.saxon.Transform \
