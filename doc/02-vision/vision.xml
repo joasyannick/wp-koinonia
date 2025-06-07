@@ -1,73 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="fr" version="5.1">
+<article
+    xml:lang="fr"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1">
   <info>
+    <volumenum>2</volumenum>
     <title>Vision pour Koïnonia</title>
-    <date>14 mars 2025</date>
+    <date>2025-06-07</date>
     <releaseinfo>1.0.0</releaseinfo>
     <edition>1</edition>
-    <author role="product" xml:id="joas-yannick-kinouani">
+    <author role="specification" xml:id="joas-yannick-kinouani">
       <personname>
         <firstname>Joas Yannick</firstname>
         <surname>Kinouani</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Produit</jobtitle>
+        <jobtitle>Responsable des spécifications</jobtitle>
       </affiliation>
     </author>
     <othercredit role="project" class="other" otherclass="approver">
       <personname>
-        <firstname>Patrick</firstname>
-        <surname>Fontaine</surname>
+        <firstname>Élise</firstname>
+        <surname>Moreau</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Projet</jobtitle>
+        <jobtitle>Chef de projet</jobtitle>
       </affiliation>
-      <contrib>Approuvé le 24 mai 2025</contrib>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
-    <othercredit role="ux" class="other" otherclass="approver" linkend="joas-yannick-kinouani">
+    <othercredit role="product" class="other" otherclass="approver">
       <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
+        <firstname>Théo</firstname>
+        <surname>Lemoine</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe UX</jobtitle>
+        <jobtitle>Chef de produit</jobtitle>
       </affiliation>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
-    <othercredit role="specification" class="other" otherclass="approver" linkend="joas-yannick-kinouani">
+    <othercredit role="ux" class="other" otherclass="approver">
       <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
+        <firstname>Clara</firstname>
+        <surname>Dubois</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Spécification</jobtitle>
+        <jobtitle>Responsable de l’expérience utilisateur</jobtitle>
       </affiliation>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
-    <othercredit role="validation" class="other" otherclass="approver" linkend="joas-yannick-kinouani">
+    <othercredit role="validation" class="other" otherclass="approver">
       <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
+        <firstname>Adrien</firstname>
+        <surname>Marchand</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Validation</jobtitle>
+        <jobtitle>Responsable des activités de validation</jobtitle>
       </affiliation>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
-    <othercredit role="quality" class="other" otherclass="approver" linkend="joas-yannick-kinouani">
+    <othercredit role="quality" class="other" otherclass="approver">
       <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
+        <firstname>Sophie</firstname>
+        <surname>Garnier</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Qualité</jobtitle>
+        <jobtitle>Responsable de la qualité</jobtitle>
       </affiliation>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
-    <othercredit role="security" class="other" otherclass="approver" linkend="joas-yannick-kinouani">
+    <othercredit role="security" class="other" otherclass="approver">
       <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
+        <firstname>Louis</firstname>
+        <surname>Lefèvre</surname>
       </personname>
       <affiliation>
-        <jobtitle>Équipe Sécurité</jobtitle>
+        <jobtitle>Responsable de la sécurité</jobtitle>
       </affiliation>
+      <contrib>Approuvé le 30&#xA0;juin 2025</contrib>
     </othercredit>
     <publisher xml:id="helikia">
       <publishername>Helikia</publishername>
@@ -78,32 +88,22 @@
     </copyright>
     <revhistory>
       <revision>
-        <revnumber><!-- format: releaseinfo.edition -->1.0.0.1</revnumber>
-        <date>14 mars 2025</date>
+        <revnumber><!-- format : <releaseinfo>:<edition>#<github-issue> -->1.0.0:1#1</revnumber>
+        <date>2025-06-07</date>
         <author linkend="joas-yannick-kinouani">
           <personname>
             <firstname>Joas Yannick</firstname>
             <surname>Kinouani</surname>
           </personname>
         </author>
-        <revremark>[GitHub #1] Première version du document</revremark>
       </revision>
     </revhistory>
   </info>
-  <preface>
-    <title>Déficiences connues de ce document</title>
-    <simpara>
-      Le projet Koïnonia est en phase de démarrage.
-      À ce jour, une seule personne contribue activement à son développement. 
-      C’est pourquoi un même contributeur figure dans plusieurs rôles d’approbation.
-      Cette situation est temporaire.
-    </simpara>
-  </preface>
   <section>
     <title>Introduction</title>
     <simpara>
-      Patrick Fontaine&#xA0;<xref linkend="doc-patrick-fontaine" /> est un enseignant spirituel dont l’expérience, riche et singulière, s’est forgée au feu de décennies d’épreuves et de remises en question.
-      Helikia&#xA0;<xref linkend="doc-helikia" />, son programme d’enseignement, accompagne depuis plus de 25&#xA0;ans les croyants en quête d’authenticité, au-delà du christianisme traditionnel.
+      Patrick Fontaine&#xA0;<citation>doc-patrick-fontaine</citation> est un enseignant spirituel dont l’expérience, riche et singulière, s’est forgée au feu de décennies d’épreuves et de remises en question.
+      Helikia&#xA0;<citation>doc-helikia</citation>, son programme d’enseignement, accompagne depuis plus de 25&#xA0;ans les croyants en quête d’authenticité, au-delà du christianisme traditionnel.
       Désormais disponible par correspondance, il permet à un public plus large de s’y immerger, sans les contraintes des sessions en présentiel qui ont marqué ses débuts.
     </simpara>
     <simpara>
@@ -120,7 +120,7 @@
     <simpara>
       Les rencontres Synergia trimestrielles, restreintes en places et en portée géographique, laissent encore trop de monde à l’écart, rappelant les limites qui ont conduit à proposer Helikia par correspondance.
       Quant au site actuel, il est franco-français&#x202F;: il coupe les expatriés et les non-francophones d’une communauté grandissante.
-      Koïnonia s’inspirera des réseaux sociaux pour briser ces entraves spatiales et porter l’héritage d’Helikia au-delà des frontières, notamment vers les anglophones, sinophones, et hispanophones, les langues les plus parlées au monde&#xA0;<xref linkend="doc-ethnologue" />.
+      Koïnonia s’inspirera des réseaux sociaux pour briser ces entraves spatiales et porter l’héritage d’Helikia au-delà des frontières, notamment vers les anglophones, sinophones, et hispanophones, les langues les plus parlées au monde&#xA0;<citation>doc-ethnologue</citation>.
     </simpara>
   </section>
   <section>
@@ -138,6 +138,9 @@
   </section>
   <section>
     <title>Proposition de valeur</title>
+    <simpara>
+      Afin d’illustrer concrètement l’impact positif qu’aura Koïnonia dans la vie de ses utilisateurs, l’histoire fictive suivante s’inspire de parcours vécus.
+    </simpara>
     <simpara>
       Maude franchit la porte de l’église comme elle le fait depuis plus de vingt ans.
       À peine entrée, le son des instruments la transporte loin de ses soucis.
@@ -169,7 +172,7 @@
       Quelques mois plus tard, Koïnonia s’ancre dans le quotidien de Maude.
       Elle savoure les articles du blog de Patrick Fontaine, télécharge des modules à la maison, les écoute en ligne en déplacement.
       Le week-end, elle échange dans des salons virtuels par messagerie instantanée et guette les événements près de chez elle.
-      Chaque module intègre un espace de question-réponse entre helikiens, Maude y trouve des éclaircissements et n’hésite plus à contribuer.
+      Chaque module intègre un espace de question-réponse entre helikiens&#x202F;; Maude y trouve des éclaircissements et n’hésite plus à contribuer.
     </simpara>
   </section>
   <section>
@@ -206,13 +209,13 @@
   <section>
     <title>Cycle de développement</title>
     <simpara>
-      Koïnonia sera construit selon la méthode Kanban, favorisant un flux continu et collaboratif.
+      Koïnonia sera construit selon la méthode Kanban&#xA0;<citation>doc-kanban</citation>, favorisant un flux continu et collaboratif.
       Une version minimale viable (MVP) centrée sur l’accès aux modules et le blog de Patrick Fontaine sera déployée au plus vite.
       Les retours des helikiens affineront les fonctionnalités — question-réponse, salons virtuels, événements locaux — au rythme des besoins réels.
     </simpara>
     <simpara>
-      Une équipe resserrée, mêlant développeurs, traducteurs, et helikiens pilotes, gérera les priorités.
-      Les technologies open-source faciliteront l’évolutivité et la maintenance, tandis qu’un hébergement sécurisé protégera les données.
+      Une équipe associant développeurs et utilisateurs gérera les priorités.
+      L'intelligence artificielle et les technologies open-source faciliteront l’évolutivité et la maintenance, tandis qu’un hébergement sécurisé protégera les données.
       Cette approche agile et inclusive fera de Koïnonia une plateforme vivante, façonnée par ceux qu’elle sert.
     </simpara>
   </section>
@@ -226,32 +229,81 @@
     <simpara>
       Sur le plan qualitatif, les retours des utilisateurs devront témoigner d’une expérience libératrice&#x202F;: moins de pression, plus de connexions authentiques, et une foi ravivée par le partage.
       Enfin, la reconnaissance de Koïnonia comme un prolongement naturel d’Helikia par Patrick Fontaine et ses pairs validera son ancrage spirituel.
-      Si Maude et Ambre, dans leur quête de sens, trouvent dans ce projet un écho à leur histoire, alors Koïnonia aura tenu sa promesse.
+      Si Maude et Ambre trouvent dans ce projet un écho à leur histoire, alors Koïnonia aura tenu sa promesse.
     </simpara>
   </section>
   <bibliography xml:id="refs">
     <title>Références</title>
     <biblioentry xml:id="doc-patrick-fontaine">
+      <biblioid class="uri">https://paddyfontaine.fr/bio-cloned</biblioid>
+      <abbrev>Fontaine, 2023</abbrev>
+      <date>2023-11-14</date>
+      <date role="accessed">2025-06-07</date>
       <title>Biographie</title>
       <author>
         <personname><firstname>Patrick</firstname><surname>Fontaine</surname></personname>
         <uri xlink:href="https://paddyfontaine.fr">https://paddyfontaine.fr</uri>
       </author>
-      <bibliomisc><link xlink:href="https://paddyfontaine.fr/bio-cloned">https://paddyfontaine.fr/bio-cloned</link></bibliomisc>
     </biblioentry>
     <biblioentry xml:id="doc-helikia">
-      <title>Helikia : Modules Fondations</title>
+      <biblioid class="uri">https://paddyfontaine.fr/helikia-modules-fondations</biblioid>
+      <abbrev>Fontaine, 2024</abbrev>
+      <date>2024-03-01</date>
+      <date role="accessed">2025-06-07</date>
+      <title>Helikia&#x202F;: modules «&#x202F;Fondations&#x202F;»</title>
       <author>
         <personname><firstname>Patrick</firstname><surname>Fontaine</surname></personname>
         <uri xlink:href="https://paddyfontaine.fr">https://paddyfontaine.fr</uri>
       </author>
-      <bibliomisc><link xlink:href="https://paddyfontaine.fr/helikia-modules-fondations">https://paddyfontaine.fr/helikia-modules-fondations</link></bibliomisc>
     </biblioentry>
     <biblioentry xml:id="doc-ethnologue">
-      <title>Ethnologue: What are the 10 largest/most spoken languages in the world?</title>
-      <bibliomisc><link xlink:href="https://www.ethnologue.com/faq/ten-largest-languages">https://www.ethnologue.com/faq/ten-largest-languages</link></bibliomisc>
-      <publisher><publishername>SIL International</publishername></publisher>
-      <date>2023</date>
+      <biblioid class="uri">https://www.ethnologue.com/faq/ten-largest-languages</biblioid>
+      <abbrev>Eberhard, Simons et Fennig, 2025</abbrev>
+      <date role="accessed">2025-06-07</date>
+      <title>Ethnologue: Languages of the World</title>
+      <editor>
+        <personname>
+          <firstname>David M.</firstname>
+          <surname>Eberhard</surname>
+        </personname>
+      </editor>
+      <editor>
+        <personname>
+          <firstname>Gary F.</firstname>
+          <surname>Simons</surname>
+        </personname>
+      </editor>
+      <editor>
+        <personname>
+          <firstname>Charles D.</firstname>
+          <surname>Fennig</surname>
+        </personname>
+      </editor>
+      <edition>28</edition>
+      <date>2025</date>
+      <publisher>
+        <publishername>SIL International</publishername>
+        <address>
+          <city>Dallas</city>
+          <state>Texas</state>
+          <country>United States</country>
+        </address>
+      </publisher>
+    </biblioentry>
+    <biblioentry xml:id="doc-kanban">
+      <abbrev>Anderson, 2010</abbrev>
+      <biblioid class="isbn">9780984521401</biblioid>
+      <title>Kanban: Successful Evolutionary Change for Your Technology Business</title>
+      <author>
+        <personname>
+          <firstname>David J.</firstname>
+          <surname>Anderson</surname>
+        </personname>
+      </author>
+      <publisher>
+        <publishername>Blue Hole Press</publishername>
+      </publisher>
+      <date>2010</date>
     </biblioentry>
   </bibliography>
 </article>

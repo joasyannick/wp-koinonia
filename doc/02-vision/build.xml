@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="koinonia" default="all" basedir=".">
+  <!-- === Propriétés du projet === -->
+  <property name="jing.path" value="../01-common/01-tools/02-jing/20091111/jing.jar"/>
+  <property name="saxon.path" value="../01-common/01-tools/03-saxon/he-12.7/saxon-he-12.7.jar"/>
+  <property name="docbook.rng" value="../01-common/01-tools/01-docbook/5.1/docbook.rng"/>
+  <property name="stylesheet" value="../01-common/02-templates/koinonia.xsl"/>
+  <property name="css" value="../01-common/02-templates/koinonia.css"/>
+  <property name="src" value="vision.xml"/>
+  <property name="out" value="vision.html"/>
+
+  <!-- === Tâche : validation DocBook === -->
+  <target name="validate">
+    <echo message="Validation de ${src} avec jing..."/>
+    <java jar="${jing.path}" fork="true" failonerror="true">
+      <arg value="${docbook.rng}"/>
+      <arg value="${src}"/>
+    </java>
+  </target>
+
+  <!-- === Tâche : transformation XSLT vers HTML === -->
+  <target name="transform">
+    <echo message="Transformation de ${src} en ${out} avec Saxon..."/>
+    <java classname="net.sf.saxon.Transform" fork="true" failonerror="true" classpath="${saxon.path}">
+      <arg value="-s:${src}"/>
+      <arg value="-xsl:${stylesheet}"/>
+      <arg value="-o:${out}"/>
+      <arg value="user-css-links=${css}"/>
+    </java>
+  </target>
+
+  <!-- === Tâche globale === -->
+  <target name="all" depends="validate,transform">
+    <echo message="Validation et transformation terminées."/>
+  </target>
+</project>
