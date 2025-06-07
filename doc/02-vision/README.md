@@ -41,7 +41,7 @@ java -cp '../01-common/01-tools/03-saxon/he-12.7/saxon-he-12.7.jar' \
   -o:vision.html \
   user-css-links=../01-common/02-templates/koinonia.css
 ```
-Ouvrez ensuite `vision.html` dans un navigateur web.
+Ouvrez ensuite `vision.html` dans un navigateur web. La feuille de style CSS `../01-common/02-templates/koinonia.css` offre un rendu de qualité à l’impression, notamment au format PDF.
 
 ## Point de contact
 
